@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bob",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PublishStartIntentFR",
+                    "slots": [],
+                    "samples": [
+                        "de demarrer une session",
+                        "demarre une session",
+                        "d'ouvrir une session",
+                        "ouvre une session"
+                    ]
+                },
+                {
+                    "name": "PublishStopIntentFR",
+                    "slots": [],
+                    "samples": [
+                        "ferme la session"
+                    ]
+                },
+                {
+                    "name": "MessageIntentFR",
+                    "slots": [
+                        {
+                            "name": "message",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "ecoutes {message}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

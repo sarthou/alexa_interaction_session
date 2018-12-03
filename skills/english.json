@@ -1,0 +1,59 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bob",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PublishStartIntent",
+                    "slots": [],
+                    "samples": [
+                        "start the session",
+                        "launch the session"
+                    ]
+                },
+                {
+                    "name": "PublishStopIntent",
+                    "slots": [],
+                    "samples": [
+                        "close the session"
+                    ]
+                },
+                {
+                    "name": "PublishMessageIntent",
+                    "slots": [
+                        {
+                            "name": "message",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "listen to {message}",
+                        "listen {message}",
+                        "listen to me {message}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
